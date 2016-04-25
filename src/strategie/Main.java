@@ -2,11 +2,19 @@ package strategie;
 
 import java.util.Scanner;
 
+/**
+ * @author math
+ *
+ */
 public class Main {
 	
 
+	/**
+	 * @param arg
+	 */
 	public static void main(String[] arg){
 		Scanner sc = new Scanner(System.in);
+		
 		Robot r = new Robot(new AggresiveBehaviour());
 		r.move();
 		
